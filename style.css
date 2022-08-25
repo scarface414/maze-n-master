@@ -1,0 +1,26 @@
+.btn{
+    /* transform: scale(1); */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(10, 10, 57);
+    border: white solid 1px;
+    /* border-radius: 5px; */
+    color: white;
+    padding: 5px 30px;
+    position: absolute;
+    top: 85%;
+    left: 46.5%;
+    /* transform: translate(-50%, -50%); */
+    transition: all 200ms ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.1);
+    color:green;
+}
+/* #canvas{
+    opacity: 0.6;
+} */
+#download{
+    display: flex;
+    justify-content: center;
+}

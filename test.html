@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body style="margin: 0; padding: 0; height: 100vh; overflow: hidden">
+    <div>
+      <canvas id="canvas1"></canvas>
+      <canvas id="canvas2"></canvas>
+
+      <div
+        class="mazeCanvas"
+        style="
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          min-width: 350px;
+          height: auto;
+        "
+      >
+        <canvas class="maze" id="canvas"></canvas>
+      </div>
+    </div>
+    <center>
+      <a id="download" download="image.png"
+        ><button class="btn" type="button" onClick="download()">
+          <h2>Download</h2>
+        </button></a
+      >
+    </center>
+    <!-- <script src="maze.js"></script>
+    <script src="matrix.js"></script> -->
+    <script src="m+m.js"></script>
+  </body>
+</html>
